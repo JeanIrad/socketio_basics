@@ -1,0 +1,53 @@
+*{
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100svh;
+    width: 100%;
+    gap: 2rem;
+}
+form{
+    min-width: 50%;
+    border: 2px solid gray;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 20px;
+}
+input{
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid gray;
+    box-shadow: inset;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    border-radius: 0.25rem;
+    color: aliceblue;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: #234523;
+    color: #ffffff;
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    transition:  all  0.4s ease-in-out;
+}
+button:hover{
+    background-color: bisque;
+    color: black;
+}
+.activity{
+    color: antiquewhite;
+}
